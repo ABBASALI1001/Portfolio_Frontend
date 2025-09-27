@@ -31,7 +31,7 @@ const Contact = () => {
     // Here you would typically send the form data to a backend
     try {
       const response = await axios.post(
-        "http://localhost:3001/contact",
+        "https://backend-portfolio-2hd1.onrender.com/contact",
         formData
       );
       if (response.data.success) {
