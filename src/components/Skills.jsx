@@ -31,6 +31,7 @@ const Skills = () => {
     "Material-UI",
     "Git",
     "REST APIs",
+    "Docker",
   ];
 
   return (
@@ -38,7 +39,7 @@ const Skills = () => {
       <Container maxWidth="lg">
         <Typography
           variant="h3"
-          className="text-center font-bold text-gray-800 mb-12"
+          className="text-center font-bold text-gray-800 mb-12 pb-5 pr-20"
         >
           Skills & Technologies
         </Typography>
@@ -47,7 +48,7 @@ const Skills = () => {
           <Box>
             <Typography
               variant="h5"
-              className="font-semibold mb-6 text-gray-700"
+              className="font-semibold mb-6 text-gray-700 pb-3"
             >
               Technical Skills
             </Typography>
@@ -79,7 +80,7 @@ const Skills = () => {
           <Box>
             <Typography
               variant="h5"
-              className="font-semibold mb-6 text-gray-700"
+              className="font-semibold mb-6 text-gray-700 pb-1"
             >
               Technologies I Work With
             </Typography>
