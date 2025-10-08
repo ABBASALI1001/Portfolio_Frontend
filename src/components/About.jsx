@@ -57,10 +57,10 @@ const About = () => {
           </Paper>
         </Box>
 
-        <Box className="mt-12 text-center">
+        <Box className="mt-12 ">
           <Typography
-            variant="body1"
-            className="text-gray-600 max-w-3xl mx-auto"
+            variant="h7"
+            className="text-gray-600 max-w-3xl mx-auto font-bold"
           >
             I'm a passionate MERN stack developer with a strong foundation in
             JavaScript and modern web technologies. Although I'm at the
@@ -76,3 +76,4 @@ const About = () => {
 };
 
 export default About;
+
