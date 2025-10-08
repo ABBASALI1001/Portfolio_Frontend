@@ -14,28 +14,37 @@ import { GitHub, OpenInNew } from "@mui/icons-material";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Website",
+      title: "📹 VideoCall Project (MERN + WebRTC + Socket.IO)",
       description:
-        "A full-stack e-commerce platform built with MERN stack featuring user authentication, product catalog, and shopping cart.",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "JWT"],
-      githubUrl: "#",
-      liveUrl: "#",
+        " A real-world video calling application built with the MERN stack (React + Vite, Node.js, Express, MongoDB . This app demonstrates real-time video calling functionality with authentication using JWT, powered by Socket.IO and WebRTC (Simple-Peer).The UI is modern and responsive, serving as a mini-clone of Zoom.",
+      technologies: [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT",
+        "TailwindCSS",
+        "Simple-Peer",
+        "Howler",
+      ],
+      githubUrl: "https://github.com/ABBASALI1001/videocall.git",
+      liveUrl: "https://frontendvideocall.onrender.com",
     },
     {
-      title: "Task Management App",
+      title: "AI Component Generator",
       description:
-        "A responsive task management application with drag-and-drop functionality and real-time updates.",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      githubUrl: "#",
-      liveUrl: "#",
+        "README🚀 AI Component Generator A React + Vite web application built with TailwindCSS that allows you to generate mini or intermediate web apps from user prompts. Users can preview the generated app live and copy the code for use in other projects. 💻✨, which mainly focus on creating an webApp based on prompts.Google Gemini Api key makes it possible and This magic happens and Ai based component Generation is fixed  ",
+      technologies: ["React", "Vite", "Gemini Api ", "TailwindCSS"],
+      githubUrl: "https://github.com/ABBASALI1001/genuiWebApp.git",
+      liveUrl: "https://genuiwebapp.onrender.com",
     },
     {
-      title: "Weather Dashboard",
+      title: "Personal Portfolio",
       description:
-        "A weather application that displays current and forecasted weather data using a weather API.",
-      technologies: ["React", "API Integration", "Tailwind CSS"],
-      githubUrl: "#",
-      liveUrl: "#",
+        "This is my personal portfolio project deployed on Render. I keep this as one of my special projects because it motivates me whenever I look at it. This is my first ever creation with AI, where I included details such as my skills, the tech stack I am familiar with, and the tools I am confident in. This project also allows me to connect with clients who are interested in working with me, making it not just a showcase but also a bridge to opportunities. I consider this a great and loved project, as it represents both my learning journey and my passion. The portfolio has been redesigned with the help of AI tools to add professionalism and polish. ",
+      technologies: ["React", "Nodejs ", "Mongodb", "Express"],
+      githubUrl: "https://github.com/ABBASALI1001/Portfolio_Frontend.git",
+      liveUrl: "https://portfolio-frontend-xxjt.onrender.com/",
     },
   ];
 
@@ -44,7 +53,7 @@ const Projects = () => {
       <Container maxWidth="lg">
         <Typography
           variant="h3"
-          className="text-center font-bold text-gray-800 mb-12"
+          className="text-center font-bold text-gray-800 pb-5 h-full w-full"
         >
           Projects
         </Typography>
