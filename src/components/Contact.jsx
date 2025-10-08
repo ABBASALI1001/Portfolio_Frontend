@@ -31,7 +31,7 @@ const Contact = () => {
     // Here you would typically send the form data to a backend
     try {
       const response = await axios.post(
-        "https://backend-portfolio-2hd1.onrender.com/contact",
+        "http://localhost:3001/contact",
         formData
       );
       if (response.data.success) {
@@ -55,7 +55,7 @@ const Contact = () => {
       <Container maxWidth="lg">
         <Typography
           variant="h3"
-          className="text-center font-bold text-gray-800 mb-12"
+          className="text-center font-bold text-gray-800 mb-12 pb-8"
         >
           Get In Touch
         </Typography>
@@ -64,14 +64,14 @@ const Contact = () => {
           <Box>
             <Typography
               variant="h5"
-              className="font-semibold mb-6 text-gray-700"
+              className="font-bold mb-6 text-gray-700  pb-3 "
             >
               Contact Information
             </Typography>
 
-            <Box className="space-y-4">
+            <Box className="space-y-4 ">
               <Box className="flex items-center">
-                <Email className="text-blue-600 mr-4" />
+                <Email className="text-blue-600 mr-4 " />
                 <Typography variant="body1">
                   abbasalimohammad8165@gmail.com
                 </Typography>
@@ -84,12 +84,12 @@ const Contact = () => {
 
               <Box className="flex items-center">
                 <LocationOn className="text-blue-600 mr-4" />
-                <Typography variant="body1">Your Hyderabad, India</Typography>
+                <Typography variant="body1"> Hyderabad, India</Typography>
               </Box>
             </Box>
 
             <Paper elevation={2} className="p-6 mt-8 bg-blue-600 text-white">
-              <Typography variant="h7" className="font-semibold mb-2">
+              <Typography variant="h6" className="font-semibold mb-2 ">
                 Open for Opportunities
               </Typography>
               <Typography variant="body2" className="pt-2">
@@ -103,7 +103,7 @@ const Contact = () => {
           <Box>
             <Typography
               variant="h5"
-              className="font-semibold mb-6 text-gray-700"
+              className="font-semibold mb-6 text-gray-700  pb-5"
             >
               Send me a Message
             </Typography>
