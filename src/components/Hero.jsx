@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
 import profile from "../assets/portfile.jpg";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/Abbas_FullStackWebDeveloper.pdf
+";
 
 const Hero = () => {
   return (
@@ -35,7 +36,8 @@ const Hero = () => {
                 startIcon={<Download />}
                 component="a"
                 href={CV} // imported path
-                download="My-CV.pdf"
+                download="Abbas_FullStackWebDeveloper.pdf
+"
               >
                 Download CV
               </Button>
