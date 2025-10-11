@@ -36,7 +36,7 @@ const Hero = () => {
                 startIcon={<Download />}
                 component="a"
                 href={CV} // imported path
-                download="Abbas_FullStackWebDeveloper.pdf
+                download="Abbas_FullStackWebDeveloper.pdf"
 "
               >
                 Download CV
