@@ -16,7 +16,7 @@ const Footer = () => {
 
           <Box className="flex space-x-4">
             <IconButton
-              href="https://github.com/yourusername"
+              href="https://github.com/ABBASALI1001"
               target="_blank"
               className="text-white hover:text-blue-400"
             >
@@ -24,7 +24,7 @@ const Footer = () => {
             </IconButton>
 
             <IconButton
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/mohammad-abbas-ali-b72a80269"
               target="_blank"
               className="text-white hover:text-blue-400"
             >
@@ -32,7 +32,7 @@ const Footer = () => {
             </IconButton>
 
             <IconButton
-              href="mailto:youremail@example.com"
+              href="abbasalimohammad8165@gmail.com"
               className="text-white hover:text-blue-400"
             >
               <Email />
