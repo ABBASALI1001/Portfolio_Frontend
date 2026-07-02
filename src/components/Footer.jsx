@@ -11,7 +11,7 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Box className="flex flex-col md:flex-row justify-between items-center">
           <Typography variant="body2" className="mb-4 md:mb-0">
-            © {currentYear} Your Name. All rights reserved.
+            Personal Portfolio
           </Typography>
 
           <Box className="flex space-x-4">
