@@ -12,41 +12,59 @@ import {
 import { GitHub, OpenInNew } from "@mui/icons-material";
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "📹 VideoCall Project (MERN + WebRTC + Socket.IO)",
-      description:
-        " A real-world video calling application built with the MERN stack (React + Vite, Node.js, Express, MongoDB . This app demonstrates real-time video calling functionality with authentication using JWT, powered by Socket.IO and WebRTC (Simple-Peer).The UI is modern and responsive, serving as a mini-clone of Zoom.",
-      technologies: [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Express",
-        "JWT",
-        "TailwindCSS",
-        "Simple-Peer",
-        "Howler",
-      ],
-      githubUrl: "https://github.com/ABBASALI1001/videocall.git",
-      liveUrl: "https://frontendvideocall.onrender.com",
-    },
-    {
-      title: "AI Component Generator",
-      description:
-        "README🚀 AI Component Generator A React + Vite web application built with TailwindCSS that allows you to generate mini or intermediate web apps from user prompts. Users can preview the generated app live and copy the code for use in other projects. 💻✨, which mainly focus on creating an webApp based on prompts.Google Gemini Api key makes it possible and This magic happens and Ai based component Generation is fixed  ",
-      technologies: ["React", "Vite", "Gemini Api ", "TailwindCSS"],
-      githubUrl: "https://github.com/ABBASALI1001/genuiWebApp.git",
-      liveUrl: "https://genuiwebapp.onrender.com",
-    },
-    {
-      title: "Personal Portfolio",
-      description:
-        "This is my personal portfolio project deployed on Render. I keep this as one of my special projects because it motivates me whenever I look at it. This is my first ever creation with AI, where I included details such as my skills, the tech stack I am familiar with, and the tools I am confident in. This project also allows me to connect with clients who are interested in working with me, making it not just a showcase but also a bridge to opportunities. I consider this a great and loved project, as it represents both my learning journey and my passion. The portfolio has been redesigned with the help of AI tools to add professionalism and polish. ",
-      technologies: ["React", "Nodejs ", "Mongodb", "Express"],
-      githubUrl: "https://github.com/ABBASALI1001/Portfolio_Frontend.git",
-      liveUrl: "https://portfolio-frontend-xxjt.onrender.com/",
-    },
-  ];
+const projects = [
+  {
+    title: "Employee Role Management Dashboard",
+    description:
+      "Built a full-stack employee scheduling dashboard with role-based authentication, intelligent 8-day cooldown scheduling, interactive calendar visualization, and complete CRUD operations for admins. Designed to ensure fair work distribution and prevent scheduling conflicts.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Material UI",
+    ],
+    githubUrl:
+      "https://github.com/ABBASALI1001/Admin-Superadmin",
+    liveUrl:
+      "https://admin-superadmin-1.onrender.com",
+  },
+
+  {
+    title: "Real-Time Messaging Application",
+    description:
+      "Developed a secure real-time chat application using Socket.io with JWT authentication. Features include instant messaging, typing indicators, online/offline presence, and a fully responsive modern user interface.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "JWT",
+    ],
+    githubUrl:
+      "https://github.com/ABBASALI1001/ChatApp_2",
+    liveUrl:
+      "https://chatapp-2-t09u.onrender.com",
+  },
+
+  {
+    title: "Gen AI Component Generator",
+    description:
+      "Created an AI-powered web application that generates reusable UI components from natural language prompts using the Gemini API. Supports live preview, instant code generation, syntax highlighting, and rapid component development.",
+    technologies: [
+      "React",
+      "Gemini API",
+      "Tailwind CSS",
+      "JavaScript",
+    ],
+    githubUrl:
+      "https://github.com/ABBASALI1001/genuiWebApp",
+    liveUrl:
+      "https://genuiwebapp.onrender.com",
+  },
+];
 
   return (
     <section id="projects" className="py-16 bg-white">
