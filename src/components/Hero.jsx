@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
-import profile from "../assets/portfile.jpg";
+import profile from ".../ProfileME.jpeg";
 import CV from "../assets/Abbas_FullStackWebDeveloper.pdf";
 
 const Hero = () => {
