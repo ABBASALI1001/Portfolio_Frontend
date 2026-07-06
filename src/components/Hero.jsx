@@ -1,4 +1,4 @@
-import React from "react";
+liimport React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
 import profile from ".../ProfileME.jpeg";
@@ -57,7 +57,7 @@ const Hero = () => {
                 className="text-blue-600 border-blue-600 hover:bg-blue-50"
                 startIcon={<LinkedIn />}
                 component="a"
-                href="https://www.linkedin.com/in/your-profile/" // 🔗 your LinkedIn profile
+                href="https://www.linkedin.com/in/mohammad-abbas-ali-b72a80269" // 🔗 your LinkedIn profile
                 target="_blank" // open in new tab
                 rel="noopener noreferrer" // security best practice
               >
