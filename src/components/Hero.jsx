@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
-import profile from ".../ProfileME.jpeg";
+import profile from "../ProfileME.jpeg"; // ✅ Fixed: 2 dots
 import CV from "../assets/Abbas_FullStackWebDeveloper.pdf";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
             </Typography>
             <Typography
               variant="body1"
-              className="text-gray-500 mb-8 pt-3 pb-4  "
+              className="text-gray-500 mb-8 pt-3 pb-4" // ✅ Fixed: removed extra space
             >
               Passionate about building modern web applications with MongoDB,
               Express.js, React, and Node.js. Eager to contribute to innovative
@@ -34,7 +34,7 @@ const Hero = () => {
                 className="bg-blue-600 hover:bg-blue-700"
                 startIcon={<Download />}
                 component="a"
-                href={CV} // imported path
+                href={CV}
                 download="Abbas_FullStackWebDeveloper.pdf"
               >
                 Download CV
@@ -45,9 +45,9 @@ const Hero = () => {
                 className="text-blue-600 border-blue-600 hover:bg-blue-50"
                 startIcon={<GitHub />}
                 component="a"
-                href="https://github.com/ABBASALI1001" // 🔗 your GitHub profile/repo
-                target="_blank" // open in new tab
-                rel="noopener noreferrer" // security best practice
+                href="https://github.com/ABBASALI1001"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </Button>
@@ -57,16 +57,16 @@ const Hero = () => {
                 className="text-blue-600 border-blue-600 hover:bg-blue-50"
                 startIcon={<LinkedIn />}
                 component="a"
-                href="https://www.linkedin.com/in/mohammad-abbas-ali-b72a80269" // 🔗 your LinkedIn profile
-                target="_blank" // open in new tab
-                rel="noopener noreferrer" // security best practice
+                href="https://www.linkedin.com/in/mohammad-abbas-ali-b72a80269"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </Button>
             </Box>
           </Box>
           <Box className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
-            <div className="w-64 h-64 bg-blue-600 rounded-full flex items-center justify-center text-white text-6xl font-bold">
+            <div className="w-64 h-64 bg-blue-600 rounded-full flex items-center justify-center">
               <img
                 src={profile}
                 style={{
@@ -75,7 +75,7 @@ const Hero = () => {
                   borderRadius: "50%",
                   objectFit: "cover",
                 }}
-                alt=""
+                alt="Md Abbas Ali profile" // ✅ Fixed: added alt text
               />
             </div>
           </Box>
