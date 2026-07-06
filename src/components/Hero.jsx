@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
 import CV from "../assets/Abbas_MERNStackDeveloper.pdf";
-import profile from "../assets/protfile.jpg"
+import profile from "../assets/portfile.jpg"
 
 const Hero = () => {
   return (
