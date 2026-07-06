@@ -1,4 +1,4 @@
-liimport React from "react";
+import React from "react";
 import { Container, Typography, Button, Box } from "@mui/material";
 import { Download, GitHub, LinkedIn } from "@mui/icons-material";
 import profile from ".../ProfileME.jpeg";
